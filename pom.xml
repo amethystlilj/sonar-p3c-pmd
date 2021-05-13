@@ -66,7 +66,7 @@
   </developers>
 
   <properties>
-    <pmd.version>6.10.0</pmd.version>
+    <pmd.version>6.15.0</pmd.version>
     <junit.jupiter.version>5.3.2</junit.jupiter.version>
     <mockito.version>2.23.4</mockito.version>
     <assertj.version>3.11.1</assertj.version>
@@ -90,7 +90,7 @@
         <groupId>org.sonarsource.sonarqube</groupId>
         <artifactId>sonar-plugin-api</artifactId>
         <scope>provided</scope>
-        <version>7.6</version>
+        <version>8.9.0.43852</version>
         <exclusions>
           <exclusion>
             <groupId>xml-apis</groupId>
@@ -101,7 +101,7 @@
       <dependency>
         <groupId>org.sonarsource.orchestrator</groupId>
         <artifactId>sonar-orchestrator</artifactId>
-        <version>3.22.0.1791</version>
+        <version>3.35.1.2719</version>
         <scope>test</scope>
       </dependency>
 
